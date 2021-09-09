@@ -27,3 +27,22 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
 docker -v
 ```
+## Creating Ubuntun Container
+### Pulling Ubuntu Image
+```
+sudo docker pull ubuntu:latest
+```
+### Creating a Interactive Ubuntu Container
+```
+sudo docker run -it --name ubuntu1 --hostname ubuntu1 ubuntu:latest /bin/bash
+```
+#### Display Ubuntu Version in Container
+```
+apt update
+apt lsb-release
+lsb_release -a
+```
+#### Exit the container
+```
+exit
+```
