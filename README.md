@@ -1,7 +1,4 @@
 # ubuntu
 
-See list of lfiles in directory
-
-'''
-ls
-'''
+# See list of lfiles in directory
+  ls
