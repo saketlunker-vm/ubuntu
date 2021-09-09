@@ -32,7 +32,7 @@ docker -v
 ```
 sudo docker pull ubuntu:latest
 ```
-### Creating a Interactive Ubuntu Container
+### Creating an Interactive Ubuntu Container
 ```
 sudo docker run -it --name ubuntu1 --hostname ubuntu1 ubuntu:latest /bin/bash
 ```
