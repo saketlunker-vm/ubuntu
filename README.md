@@ -1,11 +1,7 @@
 # ubuntu
 
-# See list of lfiles in directory
-  ls
+# Heading
+```
+command
+```
 
-```
-cd /home/rps
-mkdir Training
-cd Training
-git init
-```
